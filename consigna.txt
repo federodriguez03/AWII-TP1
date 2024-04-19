@@ -1,0 +1,28 @@
+TP 1 - AW2
+
+Su pequeña empresa lleva ya un tiempo en el desarrollo de productos Front-End, pero
+a partir de una solicitud de un cliente deciden expandir servicios que contemplen el
+Back-End, pasando a ofrecer desarrollos Full-Stack.
+
+La solicitud que nos llega es para el desarrollo de una pequeña aplicación de servidor
+de uso interno, que permita realizar un reporte periódico del estado del servidor que
+utiliza la empresa. Esta aplicación debe entregar un informe el cual debe ser
+almacenado en un archivo a modo de historial o LOG.
+
+Requerimientos
+
+Desarrollar una aplicación del lado del servidor que permita, a partir de un endpoint
+(URL), crear un LOG del estado del servidor. Este LOG debe incluir:
+● Fecha completa del reporte.
+● Inicio de actividad del servidor (momento de encendido).
+● El tiempo que el servidor estuvo activo.
+● Información sobre los CPU.
+● Memoria RAM total y memoria RAM utilizada .
+● Las interfaces de red.
+
+Una vez por semana se creará un nuevo archivo. Cada archivo llevará como nombre
+log-(fecha).txt, donde fecha es la fecha de creación, de esta manera los reportes se
+dividen en archivos más pequeños y organizados por semana.
+
+Para el trabajo con las fechas se aconseja al equipo de desarrollo trabajar con el objeto
+Date de JavaScript y el método getDay()1, que nos devuelve el día de la semana.
